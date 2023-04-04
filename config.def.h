@@ -63,8 +63,8 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[]    = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]     = { "st", NULL };
-static const char *volumndown[]  = { "/home/cwm/script/dwm/volumndown.sh", NULL };
-static const char *volumnup[]    = { "/home/cwm/script/dwm/volumnup.sh", NULL };
+static const char *volumndown[]  = { "/home/arch/script/volume_down.sh", NULL };
+static const char *volumnup[]    = { "/home/arch/script/volume_up.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
